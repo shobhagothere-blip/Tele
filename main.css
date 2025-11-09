@@ -1,0 +1,127 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Use the imported modern font */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #a8dadc, #457b9d); /* Subtle gradient background */
+    color: #333; /* Dark text for readability */
+}
+
+/* Login Container (Card) */
+.login-container {
+    background-color: #ffffff; /* White card background */
+    padding: 40px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Deep shadow for 3D effect */
+    width: 100%;
+    max-width: 400px; /* Max width for a clean look */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.login-container:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+/* Form Headings */
+.login-form h2 {
+    font-weight: 600;
+    color: #1d3557;
+    margin-bottom: 5px;
+}
+
+.login-form p {
+    color: #6c757d;
+    margin-bottom: 25px;
+}
+
+/* Input Group Styling */
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: #495057;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-sizing: border-box; /* Include padding in the element's total width/height */
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #457b9d; /* Highlight border on focus */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(69, 123, 157, 0.2);
+}
+
+/* Options (Remember Me/Forgot Password) */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.options a {
+    color: #457b9d;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+/* Login Button */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e63946; /* A striking, attractive red */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s;
+    letter-spacing: 1px;
+}
+
+.login-button:hover {
+    background-color: #d62c38; /* Slightly darker on hover */
+    transform: translateY(-1px);
+}
+
+.login-button:active {
+    transform: translateY(1px); /* Push down on click */
+}
+
+/* Sign Up Link */
+.signup-link {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.signup-link a {
+    color: #457b9d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
